@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: #000000;
+  }
+  
+  body {
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  
+  
+  h1, h2, h3 {
+    font-family: Arial;
+    color: #000000;
+  }
+  
+  p, input, li {
+    font-family: Arial;
+    color: #000000;
+  }
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 248, 248);
+  }
+  
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size:35px;
+  }
+  
+  p, li {
+    font-size:15px;
+    line-height: 1.5;
+  }
+  
+  nav, article, aside, footer {
+    background-color: rgb(167, 167, 167);
+    padding: 1%;
+    width: 117%;
+    
+  }
+  header{
+    background-color: #7865aa;
+
+  }
+  
+  nav {
+    height: 50px;
+    position: relative;
+    left: -10%;
+    background-color: #90e89c;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0,0,0);
+  }
+  
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+  
+  main {
+    display: flex;
+    width: 120%;
+    position: relative;
+    left: -10%;
+    margin-right: 10px;
+  }
+  
+  article {
+    flex: 4;
+    margin-right: 5px;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 5px;
+    background-color: #987604;
+    display: block;
+    padding: 5%;
+    margin-right: 10px;
+  }
+  
+  aside li {
+    padding-bottom: 10px;
+  }
+  
+  footer {
+    margin-top: 10px;
+    position: relative;
+    left: -10%;
+  }
+
+  img{
+      width: 440px;
+      height: 45%;
+      
+  }
